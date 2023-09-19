@@ -10,5 +10,6 @@ console / initialCommands := """
     """.trim.stripMargin
 
 libraryDependencies ++= Seq(
+  "org.typelevel" %% "cats-effect" % "3.5.1",
   "org.creativescala" %% "doodle" % "0.19.0"
 )
